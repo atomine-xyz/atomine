@@ -157,8 +157,9 @@
                 </div>
             </div>
             <div class="h-14 inline-flex gap-x-4">
-                <box-icon name='discord-alt' type='logo' color='#ffffff' class="h-full w-8"></box-icon>
-                <box-icon name='vk' type='logo' color='#ffffff' class="h-full w-8"></box-icon>
+                <a href="https://vk.com/atomine">
+                    <box-icon name='vk' type='logo' color='#ffffff' class="h-full w-8"></box-icon>
+                </a>
             </div>
         </div>
         <div class="py-3 mx-auto flex justify-center bg-[#000000]">
