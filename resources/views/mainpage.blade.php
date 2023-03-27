@@ -46,7 +46,7 @@
                 </button>
             </div>
             <div class="hidden lg:block">
-                <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
+                <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"/>
             </div>
         </header>
         <div class="hidden mobile-menu absolute w-full">
