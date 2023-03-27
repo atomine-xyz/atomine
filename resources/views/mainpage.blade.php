@@ -105,7 +105,7 @@
             <div class="w-full lg:w-1/2 lg:mx-auto bg-linear-second rounded-[20px] mt-10">
                 <div class="flex flex-row">
                     <div class="w-1/2 p-6 box-border">
-                        <h1 class="dark:text-light-100 light:text-dark-300 font-extrabold text-4xl ">Стоимость проходки: <span class="text-[#AD4ACF]">139 ₽</span></h1>
+                        <h1 class="dark:text-light-100 light:text-dark-300 font-extrabold text-4xl ">Стоимость проходки: <span class="text-[#AD4ACF]">139₽</span></h1>
                     </div>
                     <div class="w-1/2 p-6 box-border">
                         <span class="flex justify-end">🔭</span>
