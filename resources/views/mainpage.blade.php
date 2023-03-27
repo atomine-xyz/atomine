@@ -26,8 +26,8 @@
                 <a href="https://atomine.xyz" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
                 <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Вики</a>
                 <a href="https://vk.cc/cmhWS5" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
-                <a href="https://atomine.xyz:8123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
-                <a href="https://atomine.xyz:9123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
+                <a href="http://atomine.xyz:8123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
+                <a href="http://atomine.xyz:9123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
             <div class="block lg:hidden">
                 <button class="mobile-menu-button outline-none my-3">
