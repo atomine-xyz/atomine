@@ -111,7 +111,7 @@
                         <span class="flex justify-end">🔭</span>
                     </div>
                 </div>
-                <div class="w-[250px] px-6 pb-3">
+                <div class="w-[310px] px-6 pb-3">
                     <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
                 </div>
             </div>
