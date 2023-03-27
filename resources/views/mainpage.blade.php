@@ -54,8 +54,8 @@
                 <li><a href="https://atomine.xyz" class="block text-lg px-2 py-2 text-white bg-green-500 font-semibold">Главная</a></li>
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Вики</a></li>
                 <li><a href="https://vk.cc/cmhWS5" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
-                <li><a href="https://atomine.xyz:8123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (surv)</a></li>
-                <li><a href="https://atomine.xyz:9123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
+                <li><a href="http://atomine.xyz:8123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (surv)</a></li>
+                <li><a href="http://atomine.xyz:9123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
             </ul>
         </div>
         <div class="text-center md:text-left md:w-4/5 flex flex-wrap mx-auto h-[91%] items-center justify-center md:justify-start">
