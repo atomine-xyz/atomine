@@ -23,10 +23,11 @@
                 </div>
             </a>
             <nav class="hidden lg:grid grid-rows-1 grid-flow-col">
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Библиотека</a>
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта</a>
+                <a href="https://atomine.xyz" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
+                <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Вики</a>
+                <a href="https://vk.cc/cmhWS5" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
+                <a href="https://atomine.xyz:8123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
+                <a href="https://atomine.xyz:9123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
             <div class="block lg:hidden">
                 <button class="mobile-menu-button outline-none my-3">
@@ -50,10 +51,11 @@
         </header>
         <div class="hidden mobile-menu absolute w-full">
             <ul class="font-sans mx-auto text-center transition-all">
-                <li><a href="#" class="block text-lg px-2 py-2 text-white bg-green-500 font-semibold">Главная</a></li>
-                <li><a href="#" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Библиотека</a></li>
-                <li><a href="#" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
-                <li><a href="#" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта</a></li>
+                <li><a href="https://atomine.xyz" class="block text-lg px-2 py-2 text-white bg-green-500 font-semibold">Главная</a></li>
+                <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Вики</a></li>
+                <li><a href="https://vk.cc/cmhWS5" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
+                <li><a href="https://atomine.xyz:8123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (surv)</a></li>
+                <li><a href="https://atomine.xyz:9123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
             </ul>
         </div>
         <div class="text-center md:text-left md:w-4/5 flex flex-wrap mx-auto h-[91%] items-center justify-center md:justify-start">
@@ -61,7 +63,7 @@
                 <h1 class="font-extrabold text-5xl md:text-6xl mb-4 leading-tight">Приватный Minecraft сервер</h1>
                 <p class="font-light">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
                 <div class="max-w-[250px] text-center">
-                    <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
+                    <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"/>
                 </div>
             </div>
 {{--            <div class="hidden absolute right-0 xl:inline-flex rounded-l-[20px] backdrop-blur-2xl">--}}
@@ -112,7 +114,7 @@
                     </div>
                 </div>
                 <div class="w-[310px] px-6 pb-3">
-                    <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
+                    <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"/>
                 </div>
             </div>
             <div class="flex justify-center mx-auto mt-20">

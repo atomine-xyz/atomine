@@ -18,10 +18,11 @@
                 </div>
             </a>
             <nav class="hidden lg:grid grid-rows-1 grid-flow-col">
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Библиотека</a>
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
-                <a href="#" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта</a>
+                <a href="https://atomine.xyz" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
+                <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Вики</a>
+                <a href="https://vk.cc/cmhWS5" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
+                <a href="https://atomine.xyz:8123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
+                <a href="https://atomine.xyz:9123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
             <div class="block lg:hidden">
                 <button class="mobile-menu-button outline-none my-3">
@@ -40,15 +41,16 @@
                 </button>
             </div>
             <div class="hidden lg:block">
-                <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
+                <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"/>
             </div>
         </header>
         <div class="hidden mobile-menu absolute w-full dark:text-light-100">
             <ul class="font-sans mx-auto text-center transition-all">
-                <li><a href="#" class="block text-lg px-2 py-2 text-white bg-green-500 font-semibold">Главная</a></li>
-                <li><a href="#" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Библиотека</a></li>
-                <li><a href="#" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
-                <li><a href="#" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта</a></li>
+                <li><a href="https://atomine.xyz" class="block text-lg px-2 py-2 text-white bg-green-500 font-semibold">Главная</a></li>
+                <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Вики</a></li>
+                <li><a href="https://vk.cc/cmhWS5" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
+                <li><a href="https://atomine.xyz:8123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (surv)</a></li>
+                <li><a href="https://atomine.xyz:9123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
             </ul>
         </div>
         <main class="w-full h-full h-[90vh] flex items-center justify-center">
