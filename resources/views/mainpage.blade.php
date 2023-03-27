@@ -45,7 +45,7 @@
                 </button>
             </div>
             <div class="hidden lg:block">
-                <x-buttons.primary link="https://atomine.xyz" content="попасть на сервер"/>
+                <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
             </div>
         </header>
         <div class="hidden mobile-menu absolute w-full">
@@ -61,7 +61,7 @@
                 <h1 class="font-extrabold text-5xl md:text-6xl mb-4 leading-tight">Приватный Minecraft сервер</h1>
                 <p class="font-light">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
                 <div class="max-w-[250px] text-center">
-                    <x-buttons.primary link="https://atomine.xyz" content="попасть на сервер"/>
+                    <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
                 </div>
             </div>
 {{--            <div class="hidden absolute right-0 xl:inline-flex rounded-l-[20px] backdrop-blur-2xl">--}}
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <div class="w-[250px] px-6 pb-3">
-                    <x-buttons.primary link="https://atomine.xyz" content="попасть на сервер"/>
+                    <x-buttons.primary link="https://atomine.xyz" content="Попасть на сервер"/>
                 </div>
             </div>
             <div class="flex justify-center mx-auto mt-20">
