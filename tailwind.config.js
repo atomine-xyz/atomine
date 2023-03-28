@@ -16,7 +16,7 @@ module.exports = {
             },
 
             backgroundImage: {
-                'fullscreen': "url('/resources/images/background.png')",
+                'fs': "url('/resources/images/background.png')",
                 'linear-main': "linear-gradient(135deg, rgba(202,0,157,0.3) 0%, rgba(28,23,25,1) 40%)",
                 'linear-second': "linear-gradient(265.26deg, rgba(202, 0, 157, 0.25) 0%, rgba(210, 19, 19, 0.25) 100%);",
             },

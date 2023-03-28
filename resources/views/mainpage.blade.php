@@ -14,7 +14,7 @@
 </head>
 
 <body class=" dark:bg-dark-200 dark:bg-linear-main dark:bg-main-left light:bg-light-300 bg-local bg-no-repeat bg-cover mb-2 overflow-y-scroll">
-    <div class="w-full h-screen bg-fullscreen text-light-100 bg-fixed bg-no-repeat bg-cover">
+    <div class="w-full h-screen bg-fs text-light-100 bg-fixed bg-no-repeat bg-cover">
         <header class="sm:w-4/5 flex justify-between self-center px-6 mx-auto top-0">
             <a href="https://atomine.xyz" class="basis-1/5">
                 <div class="h-14 flex box-content py-2">
@@ -30,7 +30,7 @@
                 <a href="http://atomine.xyz:9123" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
             <div class="block lg:hidden">
-                <button class="mobile-menu-button outline-none my-3">
+                <button class="mobile-menu-button outline-none my-5">
                     <svg
                         class="w-10 h-10 text-gray-500"
                         x-show="!showMenu"
@@ -62,7 +62,7 @@
             <div class="basis-1/2 flex flex-col">
                 <h1 class="font-extrabold text-5xl md:text-6xl mb-4 leading-tight">Приватный Minecraft сервер</h1>
                 <p class="font-light">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
-                <div class="max-w-[250px] text-center mx-auto lg:mx-0 pt-2 lg:pt-0 mb-40 lg:mb-0">
+                <div class="max-w-[250px] text-center mx-auto md:mx-0 pt-2 lg:pt-0 mb-40 lg:mb-0">
                     <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
                 </div>
             </div>

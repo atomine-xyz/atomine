@@ -25,7 +25,7 @@
                 <a href="https://atomine.xyz:9123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
             <div class="block lg:hidden">
-                <button class="mobile-menu-button outline-none my-3">
+                <button class="mobile-menu-button outline-none my-7">
                     <svg
                         class="w-10 h-10 text-gray-500"
                         x-show="!showMenu"
@@ -54,7 +54,7 @@
             </ul>
         </div>
         <main class="w-full h-full h-[90vh] flex items-center justify-center">
-            <div class="h-1/2 w-1/2">
+            <div class="h-1/2 w-4/5 lg:w-1/2">
                 <h1 class="dark:text-light-100 text-3xl font-semibold text-center">Ничего не найдено!</h1>
                 <p class="dark:text-light-100 mt-4 font-medium text-center text-md">Возможно, контент был удалён или перемещён</p>
                 <span class="flex text-center mx-auto justify-center h-8 w-8 mt-4">🤔</span>
