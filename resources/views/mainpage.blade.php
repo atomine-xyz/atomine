@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -14,20 +14,20 @@
 </head>
 
 <body class=" dark:bg-dark-200 dark:bg-linear-main dark:bg-main-left light:bg-light-300 bg-local bg-no-repeat bg-cover mb-2 overflow-y-scroll">
-    <div class="w-full h-screen bg-fulscreen text-light-100">
-        <header class="sm:w-4/5 flex justify-between self-center px-2 mx-auto top-0">
-            <a href="https://atomine.xyz">
+    <div class="w-full h-screen bg-fullscreen text-light-100 bg-fixed bg-no-repeat bg-cover">
+        <header class="sm:w-4/5 flex justify-between self-center px-6 mx-auto top-0">
+            <a href="https://atomine.xyz" class="basis-1/5">
                 <div class="h-14 flex box-content py-2">
                     <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class="inline-block">
                     <h1 class="ml-1 align-middle text-3xl font-extrabold inline-flex items-center">Atom</h1>
                 </div>
             </a>
             <nav class="hidden lg:grid grid-rows-1 grid-flow-col">
-                <a href="https://atomine.xyz" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
-                <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Вики</a>
-                <a href="https://vk.cc/cmhWS5" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
-                <a href="http://atomine.xyz:8123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
-                <a href="http://atomine.xyz:9123" class="text-xl px-3 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
+                <a href="https://atomine.xyz" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
+                <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Вики</a>
+                <a href="https://vk.cc/cmhWS5" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
+                <a href="http://atomine.xyz:8123" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
+                <a href="http://atomine.xyz:9123" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
             <div class="block lg:hidden">
                 <button class="mobile-menu-button outline-none my-3">
@@ -45,8 +45,8 @@
                     </svg>
                 </button>
             </div>
-            <div class="hidden lg:block">
-                <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"/>
+            <div class="hidden lg:block basis-1/5">
+                <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
             </div>
         </header>
         <div class="hidden mobile-menu absolute w-full">
@@ -58,12 +58,12 @@
                 <li><a href="http://atomine.xyz:9123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
             </ul>
         </div>
-        <div class="text-center md:text-left md:w-4/5 flex flex-wrap mx-auto h-[91%] items-center justify-center md:justify-start">
+        <div class="px-2 text-center md:text-left md:w-4/5 flex flex-wrap mx-auto h-[91%] items-center justify-center md:justify-start">
             <div class="basis-1/2 flex flex-col">
                 <h1 class="font-extrabold text-5xl md:text-6xl mb-4 leading-tight">Приватный Minecraft сервер</h1>
                 <p class="font-light">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
-                <div class="max-w-[250px] text-center">
-                    <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"/>
+                <div class="max-w-[250px] text-center mx-auto lg:mx-0 pt-2 lg:pt-0 mb-40 lg:mb-0">
+                    <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
                 </div>
             </div>
 {{--            <div class="hidden absolute right-0 xl:inline-flex rounded-l-[20px] backdrop-blur-2xl">--}}
@@ -84,12 +84,14 @@
 {{--            </div>--}}
         </div>
         <div class="flex justify-center absolute bottom-0 w-full h-12">
-            <box-icon name='down-arrow-alt' color='#ffffff' class="h-12 w-12 pb-2 hover:pb-0 transition-all box-border"></box-icon>
+            <a href="#about">
+                <box-icon name='down-arrow-alt' color='#ffffff' class="h-12 w-12 pb-2 hover:pb-0 transition-all box-border"></box-icon>
+            </a>
         </div>
     </div>
-    <main class="container mx-auto">
-        <div class="mx-3">
-            <article class="text-light-100 flex flex-nowrap flex-col lg:flex-row text-center mt-20 gap-x-12">
+    <main class="container mx-auto mt-20" id="about">
+        <div class="mx-6">
+            <article class="text-light-100 flex flex-nowrap flex-col lg:flex-row text-center gap-x-12">
                 <div class="flex flex-col items-center backdrop-blur-2xl rounded-[20px] px-6 py-3 bg-[#421A42] mb-6 lg:mb-0">
                     <span class="flex items-center mb-2">🔭</span>
                     <h1 class="text-3xl mb-2 font-semibold">Немного о нас</h1>
@@ -98,23 +100,23 @@
                 <div class="flex flex-col items-center backdrop-blur-2xl rounded-[20px] px-6 py-3 bg-[#301446] mb-6 lg:mb-0">
                     <span class="flex items-center mb-2">🤔</span>
                     <h1 class="text-3xl mb-2 font-semibold">Почему именно мы?</h1>
-                    <p class="font-regular leading-loose">Мы хотим создать по-настоящему крутой приватный сервер по майнкрафту, со своими интересными фишками и механиками, которые увлекут каждого игрока. На нашем проекте, вы сможете создавать города, а также участвовать во множестве захватывающих ивентах и принимать активное участие в политической жизни сервера.</p>
+                    <p class="font-regular leading-loose">Мы хотим создать по-настоящему крутой приватный сервер по майнкрафту со своими интересными фишками и механиками, которые увлекут каждого игрока. На нашем проекте вы сможете создавать города, а также участвовать во множестве захватывающих ивентов и принимать активное участие в политической жизни сервера.</p>
                 </div>
             </article>
             <div class="flex justify-center mx-auto mt-20">
-                <h1 class="text-4xl font-extrabold dark:text-light-100 light:text-dark-300">Вы хотите попасть на сервер? Тогда скорее покупайте проходку!</h1>
+                <h1 class="text-4xl font-extrabold dark:text-light-100 light:text-dark-300 text-center">Вы хотите попасть на сервер? Тогда скорее покупайте проходку!</h1>
             </div>
             <div class="w-full lg:w-1/2 lg:mx-auto bg-linear-second rounded-[20px] mt-10">
-                <div class="flex flex-row">
+                <div class="flex flex-row justify-between">
                     <div class="w-1/2 p-6 box-border">
                         <h1 class="dark:text-light-100 light:text-dark-300 font-extrabold text-4xl ">Стоимость проходки: <span class="text-[#AD4ACF]">139₽</span></h1>
                     </div>
-                    <div class="w-1/2 p-6 box-border">
+                    <div class="w-1/3 p-6 box-border">
                         <span class="flex justify-end">🔭</span>
                     </div>
                 </div>
                 <div class="w-[310px] px-6 pb-3">
-                    <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"/>
+                    <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
                 </div>
             </div>
             <div class="flex justify-center mx-auto mt-20">
@@ -149,7 +151,7 @@
         </div>
     </main>
     <footer class="mt-20 bg-[#282224] -mb-2">
-        <div class="container py-3 mx-auto flex justify-between px-3">
+        <div class="container py-3 mx-auto flex justify-between px-6">
             <div class="h-14 inline-flex">
                 <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class=" max-h-full">
                 <div class="text-xl text-light-100 mt-3">
