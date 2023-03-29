@@ -14,7 +14,7 @@
 </head>
 
 <body class=" dark:bg-dark-200 dark:bg-linear-main dark:bg-main-left light:bg-light-300 bg-local bg-no-repeat bg-cover mb-2 overflow-y-scroll">
-    <div class="w-full h-screen bg-fs text-light-100 bg-fixed bg-no-repeat bg-cover">
+    <div class="w-full h-screen bg-fs text-light-100 bg-fixed bg-no-repeat bg-cover backdrop-blur-3xl">
         <header class="sm:w-4/5 flex justify-between self-center px-6 mx-auto top-0">
             <a href="https://atomine.xyz" class="basis-1/5">
                 <div class="h-14 flex box-content py-2">
@@ -49,13 +49,13 @@
                 <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
             </div>
         </header>
-        <div class="hidden mobile-menu absolute w-full">
-            <ul class="font-sans mx-auto text-center transition-all">
-                <li><a href="https://atomine.xyz" class="block text-lg px-2 py-2 text-white bg-green-500 font-semibold">Главная</a></li>
-                <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Вики</a></li>
-                <li><a href="https://vk.cc/cmhWS5" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
-                <li><a href="http://atomine.xyz:8123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (surv)</a></li>
-                <li><a href="http://atomine.xyz:9123" class="block text-lg px-2 py-2 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
+        <div class="mobile-menu absolute w-full transition-all hidden">
+            <ul class="font-sans mx-auto text-center transition-all w-4/5 bg-dark-200 rounded-[20px] py-6">
+                <li><a href="https://atomine.xyz" class="block text-lg px-2 py-4 text-white bg-green-500 font-semibold">Главная</a></li>
+                <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Вики</a></li>
+                <li><a href="https://vk.cc/cmhWS5" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
+                <li><a href="http://atomine.xyz:8123" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Карта (surv)</a></li>
+                <li><a href="http://atomine.xyz:9123" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
             </ul>
         </div>
         <div class="px-2 text-center md:text-left md:w-4/5 flex flex-wrap mx-auto h-[91%] items-center justify-center md:justify-start">
@@ -161,6 +161,9 @@
             <div class="h-14 inline-flex gap-x-4">
                 <a href="https://vk.com/atomine">
                     <box-icon name='vk' type='logo' color='#ffffff' class="h-full w-8"></box-icon>
+                </a>
+                <a href="http://github.com/l4dn0/atomine">
+                    <box-icon name='github' type='logo' color='#ffffff' class="h-full w-8"></box-icon>
                 </a>
             </div>
         </div>
