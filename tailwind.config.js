@@ -22,6 +22,9 @@ module.exports = {
             },
             backgroundPosition: {
                 'main-left': 'top left',
+            },
+            transitionTimingFunction: {
+                'in-crop': 'cubic-bezier(.09,.97,.72,.99)',
             }
         },
 

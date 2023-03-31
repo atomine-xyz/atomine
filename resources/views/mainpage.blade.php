@@ -15,9 +15,9 @@
 
 <body class=" dark:bg-dark-200 dark:bg-linear-main dark:bg-main-left light:bg-light-300 bg-local bg-no-repeat bg-cover mb-2 overflow-y-scroll">
     <div class="w-full h-screen bg-fs text-light-100 bg-fixed bg-no-repeat bg-cover backdrop-blur-3xl">
-        <header class="sm:w-4/5 flex justify-between self-center px-6 mx-auto top-0">
-            <a href="https://atomine.xyz" class="basis-1/5">
-                <div class="h-14 flex box-content py-2">
+        <header class="sm:w-4/5 flex justify-between self-center px-6 mx-auto top-0 absolute z-30 left-0 right-0">
+            <a href="https://atomine.xyz" class="flex items-center">
+                <div class="h-14 flex box-content">
                     <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class="inline-block">
                     <h1 class="ml-1 align-middle text-3xl font-extrabold inline-flex items-center">Atom</h1>
                 </div>
@@ -29,10 +29,10 @@
                 <a href="http://atomine.xyz:8123" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
                 <a href="http://atomine.xyz:9123" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
-            <div class="block lg:hidden">
+            <div class="block lg:hidden right-5">
                 <button class="mobile-menu-button outline-none my-5">
                     <svg
-                        class="w-10 h-10 text-gray-500"
+                        class="w-10 h-10 text-light-100"
                         x-show="!showMenu"
                         fill="none"
                         stroke-linecap="round"
@@ -45,19 +45,20 @@
                     </svg>
                 </button>
             </div>
-            <div class="hidden lg:block basis-1/5">
+            <div class="hidden lg:block">
                 <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
             </div>
         </header>
-        <div class="mobile-menu absolute w-full transition-all hidden">
-            <ul class="font-sans mx-auto text-center transition-all w-4/5 bg-dark-200 rounded-[20px] py-6">
-                <li><a href="https://atomine.xyz" class="block text-lg px-2 py-4 text-white bg-green-500 font-semibold">Главная</a></li>
-                <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Вики</a></li>
-                <li><a href="https://vk.cc/cmhWS5" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Ресурспак</a></li>
-                <li><a href="http://atomine.xyz:8123" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Карта (surv)</a></li>
-                <li><a href="http://atomine.xyz:9123" class="block text-lg px-2 py-4 hover:bg-green-500 transition duration-300">Карта (farm)</a></li>
+        <div class="mobile-menu h-full fixed inset-y-0 m-0 transition left duration-300 -left-[100%] top-0 w-full z-20 ease-in-crop">
+            <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
+                <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white bg-green-500 font-semibold">Главная</a></li>
+                <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Вики</a></li>
+                <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Ресурспак</a></li>
+                <li><a href="http://atomine.xyz:8123" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Карта (surv)</a></li>
+                <li><a href="http://atomine.xyz:9123" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Карта (farm)</a></li>
             </ul>
         </div>
+
         <div class="px-2 text-center md:text-left md:w-4/5 flex flex-wrap mx-auto h-[91%] items-center justify-center md:justify-start">
             <div class="basis-1/2 flex flex-col">
                 <h1 class="font-extrabold text-5xl md:text-6xl mb-4 leading-tight">Приватный Minecraft сервер</h1>
@@ -83,7 +84,7 @@
 {{--                <img src="{{ Vite::asset('resources/images/news-pic.png') }}" alt="" class="w-[340px] h-[340px]">--}}
 {{--            </div>--}}
         </div>
-        <div class="flex justify-center absolute bottom-0 w-full h-12">
+        <div class="flex justify-center absolute bottom-0 w-full h-12 z-10">
             <a href="#about">
                 <box-icon name='down-arrow-alt' color='#ffffff' class="h-12 w-12 pb-2 hover:pb-0 transition-all box-border"></box-icon>
             </a>
@@ -182,7 +183,7 @@
 
         // Add Event Listeners
         btn.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
+            menu.classList.toggle("vis");
         });
     </script>
     <!--     ⣀⠤⠒⠊⠉⠉⠉⠉⠉⠉⠉⠒⠤⣀
