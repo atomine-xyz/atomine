@@ -70,6 +70,7 @@
         // Add Event Listeners
         btn.addEventListener("click", () => {
             menu.classList.toggle("vis");
+            btn.classList.toggle("rotated");
         });
     </script>
 </body>
