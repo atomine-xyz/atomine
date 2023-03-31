@@ -30,7 +30,7 @@
                 <a href="http://atomine.xyz:9123" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (farm)</a>
             </nav>
             <div class="block lg:hidden right-5">
-                <button class="mobile-menu-button outline-none my-5">
+                <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
                     <svg
                         class="w-10 h-10 text-light-100"
                         x-show="!showMenu"
@@ -49,7 +49,7 @@
                 <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
             </div>
         </header>
-        <div class="mobile-menu h-full fixed inset-y-0 m-0 transition left duration-300 -left-[100%] top-0 w-full z-20 ease-in-crop">
+        <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full z-20 -left-[100%]">
             <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
                 <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white bg-green-500 font-semibold">Главная</a></li>
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Вики</a></li>
@@ -184,6 +184,7 @@
         // Add Event Listeners
         btn.addEventListener("click", () => {
             menu.classList.toggle("vis");
+            btn.classList.toggle("rotated");
         });
     </script>
     <!--     ⣀⠤⠒⠊⠉⠉⠉⠉⠉⠉⠉⠒⠤⣀
