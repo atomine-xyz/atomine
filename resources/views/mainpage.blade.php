@@ -11,6 +11,7 @@
         console.log("“Ключ ко всему - мельчайшая, неделимая единица сего, имя ему - atom” © Блез Виженер")
     </script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link type="Image/x-icon" href="/favicon.ico" rel="icon">
 </head>
 
 <body class=" dark:bg-dark-200 dark:bg-linear-main dark:bg-main-left light:bg-light-300 bg-local bg-no-repeat bg-cover mb-2 overflow-y-scroll">
