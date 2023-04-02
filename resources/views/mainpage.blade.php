@@ -16,7 +16,7 @@
 <body class=" dark:bg-dark-200 dark:bg-linear-main dark:bg-main-left light:bg-light-300 bg-local bg-no-repeat bg-cover mb-2 overflow-y-scroll">
     <div class="w-full h-screen bg-fs text-light-100 bg-fixed bg-no-repeat bg-cover backdrop-blur-3xl">
         <header class="sm:w-4/5 flex justify-between self-center px-6 mx-auto top-0 absolute z-30 left-0 right-0">
-            <a href="https://atomine.xyz" class="flex items-center">
+            <a href="https://atomine.xyz" class="flex items-center basis-1/5">
                 <div class="h-14 flex box-content">
                     <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class="inline-block">
                     <h1 class="ml-1 align-middle text-3xl font-extrabold inline-flex items-center">Atom</h1>
