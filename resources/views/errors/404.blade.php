@@ -5,47 +5,45 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ошибка 404</title>
+    <title>Ошибка 404 | Atom</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link type="Image/x-icon" href="/favicon.ico" rel="icon">
 </head>
-<body class="dark:bg-dark-200 dark:bg-linear-main dark:bg-main-left light:bg-light-300 bg-local bg-no-repeat bg-cover mb-2 overflow-y-scroll">
-    <div class="w-full h-screen">
-        <header class="sm:w-4/5 flex justify-between self-center px-6 mx-auto top-0 absolute z-30 left-0 right-0">
-            <a href="https://atomine.xyz" class="flex items-center basis-1/5">
-                <div class="h-14 flex box-content">
-                    <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class="inline-block">
-                    <h1 class="ml-1 align-middle text-3xl font-extrabold inline-flex items-center dark:text-light-100">Atom</h1>
+<body class="bg-dark-100 bg-local bg-no-repeat bg-cover overflow-y-scroll text-light-100">
+        <header class="w-full h-[80px] absolute top-0 z-20">
+            <div class="max-w-[1520px] w-5/6 px-3 mx-auto flex justify-between py-2">
+                <div class="inline-flex items-center my-auto">
+                    <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="" class="h-[60px]">
+                    <h1 class="text-3xl">Atom</h1>
                 </div>
-            </a>
-            <nav class="hidden lg:grid grid-rows-1 grid-flow-col">
-                <a href="https://atomine.xyz" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
-                <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Вики</a>
-                <a href="https://vk.cc/cmhWS5" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
-                <a href="http://atomine.xyz:8080" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта (surv)</a>
-            </nav>
-            <div class="block lg:hidden right-5">
-                <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
-                    <svg
-                        class="w-10 h-10 dark:text-light-100"
-                        x-show="!showMenu"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden lg:block">
-                <x-buttons.primary link="https://vk.com/atomine" content="Попасть на сервер"></x-buttons.primary>
+                <nav class="my-auto hidden lg:block">
+                    <a href="https://atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">главная</a>
+                    <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">вики</a>
+                    <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">ресурспак</a>
+                    <a href="https://maps.atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">карта</a>
+                </nav>
+                <div class="my-auto hidden lg:block">
+                    <a href="#"><x-buttons.primary link="https://localhost" content="попасть на сервер"></x-buttons.primary></a>
+                </div>
+                <div class="block lg:hidden">
+                    <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
+                        <svg class="w-10 h-10 text-light-100" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </header>
+        <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full z-20 -left-[100%] bg-dark-300 z-10">
+            <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
+                <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
+                <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
+                <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Ресурспак</a></li>
+                <li><a href="https://maps.atomine.xyz" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Карта</a></li>
+            </ul>
+        </div>
         <div class="mobile-menu h-full fixed inset-y-0 m-0 transition left duration-300 -left-[100%] top-0 w-full z-20 ease-in-crop">
-            <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20 dark:text-light-100">
+            <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20 text-light-100">
                 <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white bg-green-500 font-semibold">Главная</a></li>
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Вики</a></li>
                 <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Ресурспак</a></li>
@@ -54,12 +52,35 @@
         </div>
         <main class="w-full h-full h-[90vh] flex items-center justify-center">
             <div class="h-1/2 w-4/5 lg:w-1/2">
-                <h1 class="dark:text-light-100 text-3xl font-semibold text-center">Ничего не найдено!</h1>
-                <p class="dark:text-light-100 mt-4 font-medium text-center text-md">Возможно, контент был удалён или перемещён</p>
+                <h1 class="text-light-100 text-3xl font-semibold text-center">Ничего не найдено!</h1>
+                <p class="text-light-100 mt-4 font-medium text-center text-md">Возможно, контент был удалён или перемещён</p>
                 <span class="flex text-center mx-auto justify-center h-8 w-8 mt-4">🤔</span>
             </div>
         </main>
-    </div>
+    <footer class="bg-dark-300">
+        <div class="w-full lg:w-5/6 py-3 mx-auto flex justify-between px-6">
+            <div class="h-14 inline-flex">
+                <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class=" max-h-full">
+                <div class="text-xl mt-3">
+                    <h1 class="text-3xl">Atom</h1>
+                </div>
+            </div>
+            <div class="h-14 inline-flex gap-x-4">
+                <a href="https://vk.com/atomine">
+                    <box-icon name='vk' type='logo' color='#ffffff' class="h-full w-8"></box-icon>
+                </a>
+                <a href="http://github.com/l4dn0/atomine">
+                    <box-icon name='github' type='logo' color='#ffffff' class="h-full w-8"></box-icon>
+                </a>
+            </div>
+        </div>
+        <div class="py-3 mx-auto flex justify-center bg-[#000000]">
+            <div>
+                <span class="tracking-tighter font-mono text-lg font-medium">made with <img src="{{ Vite::asset('resources/images/flutty.png') }}" alt="флатти" class="h-8 inline-block align-sub"> by <a href="https://github.com/l4dn0" class="font-mono  transition-all text-[#504646] hover:text-[#CA009D]">L4DNO</a></span>
+            </div>
+        </div>
+
+    </footer>
     <x-scripts.twemoji></x-scripts.twemoji>
     <script>
         // Grab HTML Elements

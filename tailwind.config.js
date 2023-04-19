@@ -17,14 +17,17 @@ module.exports = {
 
             backgroundImage: {
                 'fs': "url('/resources/images/background.png')",
-                'linear-main': "linear-gradient(135deg, rgba(202,0,157,0.3) 0%, rgba(28,23,25,1) 40%)",
-                'linear-second': "linear-gradient(265.26deg, rgba(202, 0, 157, 0.25) 0%, rgba(210, 19, 19, 0.25) 100%);",
+                'erik': "url('/resources/images/erik.png')"
             },
             backgroundPosition: {
                 'main-left': 'top left',
             },
             transitionTimingFunction: {
                 'in-crop': 'cubic-bezier(.09,.97,.72,.99)',
+            },
+
+            transitionProperty: {
+                'underline': 'width',
             }
         },
 
@@ -41,12 +44,12 @@ module.exports = {
             },
 
             'dark': {
-                100: '#B5B5B5',
-                200: '#222523',
-                300: '#222222',
-                400: '#1C1719',
-                500: '#161314',
-            }
+                100: '#1C1719',
+                200: '#282325',
+                300: '#282325',
+            },
+
+            'primary': '#A46CFF',
 
         },
 
@@ -56,6 +59,10 @@ module.exports = {
             '25': '0.25',
             '50': '0.5',
 
+        },
+
+        backgroundPosition: {
+            'erikpos': 'right 1rem bottom',
         }
     },
 
