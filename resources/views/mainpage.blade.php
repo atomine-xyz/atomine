@@ -27,7 +27,7 @@
                 <a href="https://atomine.xyz" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Главная</a>
                 <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Вики</a>
                 <a href="https://vk.cc/cmhWS5" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Ресурспак</a>
-                <a href="http://atomine.xyz:8080" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта</a>
+                <a href="http://maps.atomine.xyz" class="text-xl px-5 py-2 items-center hover:bg-dark-200 transition-all rounded-[20px] max-h-96 my-auto">Карта</a>
             </nav>
             <div class="block lg:hidden right-5">
                 <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
@@ -54,7 +54,7 @@
                 <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white bg-green-500 font-semibold">Главная</a></li>
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Вики</a></li>
                 <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Ресурспак</a></li>
-                <li><a href="http://atomine.xyz:8080" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Карта</a></li>
+                <li><a href="http://maps.atomine.xyz" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Карта</a></li>
             </ul>
         </div>
 
