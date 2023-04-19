@@ -29,7 +29,7 @@
                     <a href="https://maps.atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">карта</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
-                    <a href="#"><x-buttons.primary link="https://localhost" content="попасть на сервер"></x-buttons.primary></a>
+                    <a href="#"><x-buttons.primary link="https://atomine.xyz" content="попасть на сервер"></x-buttons.primary></a>
                 </div>
                 <div class="block lg:hidden">
                     <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
@@ -85,7 +85,7 @@
                     <h2 class="text-2xl font-medium">Начни играть уже сейчас!</h2>
                 </div>
                 <div class="flex flex-row items-center">
-                    <button class="text-primary bg-light-100 rounded-xl py-3 relative bottom-0 left-0 w-28">Купить</button>
+                    <a href="https://vk.com/atomine?w=product-219076783_7977745" class="text-center text-primary bg-light-100 rounded-xl py-3 relative bottom-0 left-0 w-28">Купить</a>
                     <div class="px-2 font-medium">
                         <p>Стоимость</p>
                         <p class="font-bold">139₽</p>
