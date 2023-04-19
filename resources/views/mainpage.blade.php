@@ -40,7 +40,7 @@
                 </div>
             </div>
         </header>
-        <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full z-20 -left-[100%] bg-dark-300 z-10">
+        <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
             <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
                 <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>

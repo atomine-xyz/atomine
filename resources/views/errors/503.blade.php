@@ -35,7 +35,7 @@
             </div>
         </div>
     </header>
-    <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full z-20 -left-[100%] bg-dark-300 z-10">
+    <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
         <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
             <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
             <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
@@ -51,7 +51,7 @@
             <li><a href="http://atomine.xyz:8080" class="block text-xl px-2 py-4 hover:bg-green-500 transition duration-300 font-semibold">Карта</a></li>
         </ul>
     </div>
-    <main class="w-full h-full h-[90vh] flex items-center justify-center">
+    <main class="w-full h-full flex items-center justify-center">
         <div class="h-1/2 w-4/5 lg:w-1/2">
             <h1 class="dark:text-light-100 text-3xl font-semibold text-center">Сайт временно на техническом обслуживании!</h1>
             <p class="dark:text-light-100 mt-4 font-medium text-center text-md">Возможно, скоро тут что-то будет...</p>
@@ -59,7 +59,7 @@
         </div>
     </main>
 </div>
-<footer class="bg-dark-300">
+<footer class="bg-dark-300  absolute bottom-0 w-full">
     <div class="w-full lg:w-5/6 py-3 mx-auto flex justify-between px-6">
         <div class="h-14 inline-flex">
             <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class=" max-h-full">
