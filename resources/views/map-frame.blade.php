@@ -40,7 +40,7 @@
             <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
             <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
             <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Ресурспак</a></li>
-            <li><a href="https://maps.atomine.xyz" class="text-light-400 block text-xl px-2 py-4 duration-300 font-semibold transition-all active:text-primary">Карта</a></li>
+            <li><a href="https://atomine.xyz/maps" class="text-light-400 block text-xl px-2 py-4 duration-300 font-semibold transition-all active:text-primary">Карта</a></li>
         </ul>
     </div>
     <main class="w-full flex items-center justify-center pt-24">
