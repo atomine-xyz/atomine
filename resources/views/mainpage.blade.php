@@ -23,7 +23,7 @@
                     <h1 class="text-3xl">Atom</h1>
                 </div>
                 <nav class="my-auto hidden lg:block">
-                    <a href="https://atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Главная</a>
+                    <a href="https://atomine.xyz" class="text-light-400 text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop active:text-primary hover:bg-dark-200">Главная</a>
                     <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Вики</a>
                     <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Ресурспак</a>
                     <a href="https://maps.atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Карта</a>
@@ -42,7 +42,7 @@
         </header>
         <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
             <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
-                <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
+                <li><a href="https://atomine.xyz" class="text-light-400 block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
                 <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Ресурспак</a></li>
                 <li><a href="https://maps.atomine.xyz" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Карта</a></li>

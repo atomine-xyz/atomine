@@ -41,6 +41,7 @@ module.exports = {
                 100: '#ffffff',
                 200: '#EBDFDF',
                 300: '#B5B5B5',
+                400: '#807e7e'
             },
 
             'dark': {

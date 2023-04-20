@@ -18,7 +18,9 @@ Route::get('/', function () {
     return view('mainpage');
 });
 
-
+Route::get('/maps', function () {
+    return view('map-frame');
+});
 
 
 

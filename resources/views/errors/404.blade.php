@@ -17,13 +17,13 @@
                     <h1 class="text-3xl">Atom</h1>
                 </div>
                 <nav class="my-auto hidden lg:block">
-                    <a href="https://atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">главная</a>
-                    <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">вики</a>
-                    <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">ресурспак</a>
-                    <a href="https://maps.atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">карта</a>
+                    <a href="https://atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Главная</a>
+                    <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Вики</a>
+                    <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Ресурспак</a>
+                    <a href="https://maps.atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Карта</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
-                    <a href="#"><x-buttons.primary link="https://localhost" content="попасть на сервер"></x-buttons.primary></a>
+                    <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Войти"></x-buttons.primary></a>
                 </div>
                 <div class="block lg:hidden">
                     <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
