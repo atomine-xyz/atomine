@@ -23,13 +23,13 @@
                     <h1 class="text-3xl">Atom</h1>
                 </div>
                 <nav class="my-auto hidden lg:block">
-                    <a href="https://atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">главная</a>
-                    <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">вики</a>
-                    <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">ресурспак</a>
-                    <a href="https://maps.atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">карта</a>
+                    <a href="https://atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Главная</a>
+                    <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Вики</a>
+                    <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Ресурспак</a>
+                    <a href="https://maps.atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Карта</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
-                    <a href="#"><x-buttons.primary link="https://atomine.xyz" content="попасть на сервер"></x-buttons.primary></a>
+                    <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Авторизация"></x-buttons.primary></a>
                 </div>
                 <div class="block lg:hidden">
                     <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
@@ -53,13 +53,13 @@
                 <div class="w-full lg:w-0 lg:basis-2/5 text-center lg:text-left flex flex-col items-center lg:block">
                     <h1 class="text-5xl mb-6 font-bold">Atom - приватный Minecraft сервер</h1>
                     <p class="text-lg">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
-                    <x-buttons.primary link="https://localhost" content="попасть на сервер"></x-buttons.primary>
+                    <x-buttons.primary link="http://atomine.xyz#about" content="Попасть на сервер"></x-buttons.primary>
                 </div>
                 <div class="lg:basis-3/5"></div>
             </div>
         </div>
     </div>
-    <main class="w-full px-3 lg:w-5/6 flex flex-col lg:flex-row flex-wrap mx-auto mt-20 box-border">
+    <main id="about" class="w-full px-3 lg:w-5/6 flex flex-col lg:flex-row flex-wrap mx-auto mt-20 box-border">
         <div class="w-full lg:w-1/2">
             <div class="mx-4 bg-primary mb-10 px-5 py-3 rounded-3xl">
                 <h1 class="text-3xl font-semibold"><span class="inline-block w-8 pr-1 align-sub">💫</span>Немного о нас</h1>
@@ -115,11 +115,13 @@
     </div>
     <footer class="bg-dark-300">
         <div class="w-full lg:w-5/6 py-3 mx-auto flex justify-between px-6">
-            <div class="h-14 inline-flex">
-                <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class=" max-h-full">
-                <div class="text-xl mt-3">
-                    <h1 class="text-3xl">Atom</h1>
-                </div>
+            <div class="h-14">
+                <a href="https://atomine.xyz" class="flex flex-row">
+                    <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class="h-14">
+                    <div class="text-xl mt-3">
+                        <h1 class="text-3xl pl-2">Atom</h1>
+                    </div>
+                </a>
             </div>
             <div class="h-14 inline-flex gap-x-4">
                 <a href="https://vk.com/atomine">
