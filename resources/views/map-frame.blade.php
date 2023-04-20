@@ -44,7 +44,7 @@
         </ul>
     </div>
     <main class="w-full flex items-center justify-center pt-24">
-        <iframe src="https://maps.atomine.xyz" frameborder="0" class="w-full h-[820px]"></iframe>
+        <iframe src="https://maps.atomine.xyz" frameborder="0" class="w-full h-[810px]"></iframe>
     </main>
 </div>
 <footer class="bg-dark-300 absolute bottom-0 w-full">
