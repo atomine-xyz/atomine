@@ -27,4 +27,8 @@
     .rotated {
         transform: rotate(90deg);
     }
+
+    .calca {
+        height: calc(100vh - 88px - 52px);
+    }
 }

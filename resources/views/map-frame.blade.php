@@ -11,8 +11,8 @@
 </head>
 <body class="bg-dark-100 bg-local bg-no-repeat bg-cover overflow-y-scroll text-light-100">
 <div class="w-full h-screen">
-    <header class="w-full h-[80px] absolute top-0 z-20">
-        <div class="max-w-[1520px] w-5/6 px-3 mx-auto flex justify-between py-2">
+    <header class="w-full relative top-0 z-20">
+        <div class="max-w-[1520px] w-5/6 px-3 mx-auto flex justify-between py-1">
             <div class="inline-flex items-center my-auto">
                 <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="" class="h-[60px]">
                 <h1 class="text-3xl">Atom</h1>
@@ -21,7 +21,7 @@
                 <a href="https://atomine.xyz" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Главная</a>
                 <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Вики</a>
                 <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Ресурспак</a>
-                <a href="https://maps.atomine.xyz" class="text-light-400 text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:bg-dark-200">Карта</a>
+                <a href="https://atomine.xyz/maps" class="text-light-400 text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:bg-dark-200">Карта</a>
             </nav>
             <div class="my-auto hidden lg:block">
                 <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Войти"></x-buttons.primary></a>
@@ -35,26 +35,25 @@
             </div>
         </div>
     </header>
-    <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
-        <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
-            <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
-            <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
-            <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Ресурспак</a></li>
-            <li><a href="https://atomine.xyz/maps" class="text-light-400 block text-xl px-2 py-4 duration-300 font-semibold transition-all active:text-primary">Карта</a></li>
-        </ul>
-    </div>
-    <main class="w-full flex items-center justify-center pt-24">
-        <iframe src="https://maps.atomine.xyz" frameborder="0" class="w-full h-[810px]"></iframe>
+    <main class="w-full flex items-center justify-center calca">
+        <iframe src="https://maps.atomine.xyz" frameborder="0" class="w-full h-full"></iframe>
     </main>
-</div>
-<footer class="bg-dark-300 absolute bottom-0 w-full">
-    <div class="py-2 mx-auto flex justify-center bg-[#000000]">
-        <div>
-            <span class="tracking-tighter font-mono text-lg font-medium">made with <img src="{{ Vite::asset('resources/images/flutty.png') }}" alt="флатти" class="h-8 inline-block align-sub"> by <a href="https://github.com/l4dn0" class="font-mono  transition-all text-[#504646] hover:text-[#CA009D]">L4DNO</a></span>
+    <footer class="bg-dark-300 relative bottom-0 w-full">
+        <div class="py-2 mx-auto flex justify-center bg-[#000000]">
+            <div>
+                <span class="tracking-tighter font-mono text-lg font-medium">made with <img src="{{ Vite::asset('resources/images/flutty.png') }}" alt="флатти" class="h-8 inline-block align-sub"> by <a href="https://github.com/l4dn0" class="font-mono  transition-all text-[#504646] hover:text-[#CA009D]">L4DNO</a></span>
+            </div>
         </div>
-    </div>
-
-</footer>
+    </footer>
+</div>
+<div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
+    <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
+        <li><a href="https://atomine.xyz" class="block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
+        <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
+        <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Ресурспак</a></li>
+        <li><a href="https://atomine.xyz/maps" class="text-light-400 block text-xl px-2 py-4 duration-300 font-semibold transition-all active:text-primary">Карта</a></li>
+    </ul>
+</div>
 <x-scripts.twemoji></x-scripts.twemoji>
 <script>
     // Grab HTML Elements
