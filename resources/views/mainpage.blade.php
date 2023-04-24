@@ -12,6 +12,8 @@
     </script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link type="Image/x-icon" href="/favicon.ico" rel="icon">
+    <x-analytics.google gtagid="G-V34X00ZLQ9"></x-analytics.google>
+    <x-analytics.yandex></x-analytics.yandex>
 </head>
 
 <body class="bg-dark-100 bg-local bg-no-repeat bg-cover overflow-y-scroll text-light-100">
@@ -140,6 +142,7 @@
 
     </footer>
     <x-scripts.twemoji></x-scripts.twemoji>
+
     <script>
         // Grab HTML Elements
         const btn = document.querySelector("button.mobile-menu-button");
