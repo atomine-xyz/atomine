@@ -28,6 +28,10 @@ module.exports = {
 
             transitionProperty: {
                 'underline': 'width',
+            },
+
+            lineHeight: {
+                'def': '1.1',
             }
         },
 

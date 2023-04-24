@@ -40,7 +40,7 @@
                 </div>
             </div>
         </header>
-        <div class="mobile-menu h-full fixed inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
+        <div class="mobile-menu h-full absolute inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
             <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
                 <li><a href="https://atomine.xyz" class="text-light-400 block text-xl px-2 py-4 text-white duration-300 font-semibold transition-all hover:text-primary active:text-primary">Главная</a></li>
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
@@ -51,7 +51,7 @@
         <div class="w-full h-[750px] max-h-4/5">
             <div class="max-w-[1520px] w-5/6 px-3 mx-auto flex flex-row h-full items-center">
                 <div class="w-full lg:w-0 lg:basis-2/5 text-center lg:text-left flex flex-col items-center lg:block">
-                    <h1 class="text-5xl mb-6 font-bold">Atom - приватный Minecraft сервер</h1>
+                    <h1 class="text-5xl mb-6 font-bold leading-def"><span class="text-primary">Atom</span> - приватный Minecraft сервер</h1>
                     <p class="text-lg">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
                     <x-buttons.primary link="http://atomine.xyz#about" content="Попасть на сервер"></x-buttons.primary>
                 </div>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/2">
-            <div class="mx-4 bg-dark-300 mb-10 px-5 py-3 rounded-3xl">
+            <div class="mx-4 bg-dark-300 mb-10 px-5 py-3 lg:pb-6 rounded-3xl">
                 <h1 class="text-3xl font-semibold"><span class="inline-block w-10 pr-1 align-sub">🤔</span>Почему именно мы?</h1>
                 <p class="pt-2 text-md">Мы хотим создать по-настоящему крутой приватный сервер по майнкрафту со своими интересными фишками и механиками, которые увлекут каждого игрока. На нашем проекте вы сможете создавать города, а также участвовать во множестве захватывающих ивентов и принимать активное участие в политической жизни сервера.</p>
             </div>
@@ -79,7 +79,7 @@
             </div>
         </div>
         <div class="w-full lg:w-1/2">
-            <div class="mx-4 bg-primary mb-10 px-5 py-5 rounded-3xl h-64 bg-erik bg-no-repeat bg-erikpos bg-contain flex flex-col justify-between">
+            <div class="mx-4 bg-primary mb-10 px-5 py-5 lg:pb-6 rounded-3xl h-64 bg-erik bg-no-repeat bg-erikpos bg-contain flex flex-col justify-between">
                 <div>
                     <h1 class="text-3xl font-semibold">Пропуск на сервер</h1>
                     <h2 class="text-2xl font-medium">Начни играть уже сейчас!</h2>
