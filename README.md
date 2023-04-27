@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://i.imgur.com/9UhdtH1.png" width="200"></h1>
+<h1 align="center"><img src="https://i.imgur.com/cdgCDOT.png" width="200"></h1>
 
 <h1>Сайт атома</h1>
 <p>Этот репозиторий содержит в себе исходный код сайта для проекта Atom</p>
