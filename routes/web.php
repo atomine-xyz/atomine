@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,11 @@ Route::get('/maps', function () {
     return view('map-frame');
 });
 
+Route::get('/launcher', function () {
+    if (Storage::exists("public/Launcher.exe")) {
+        return Storage::download('public/Launcher.exe', 'launcher.exe');
+    }
+});
 
 
 
