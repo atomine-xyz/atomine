@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Главная</title>
+    <title>Главная | Atom</title>
     <script>
         console.log("Воу, ты что-то нашёл! https://vine-gas-d4b.notion.site/0KHQuNGB0YLQtdC80LAg0LDQutC60LDRg9C90YLQvtCyINC90LAg0YHQsNC50YLQtQ-b1b5f0a309704107a9f436414b3d7e7b")
         console.log("“Ключ ко всему - мельчайшая, неделимая единица сего, имя ему - atom” © Блез Виженер")
@@ -49,7 +49,7 @@
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
                 <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Ресурспак</a></li>
                 <li><a href="https://maps.atomine.xyz" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Карта</a></li>
-                <li><a href="https://drive.google.com/file/d/1V5-lzDWpgXesEXQvkbXK-8Xi50fTi4lK/view?usp=sharing" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Лаунчер</a></li>
+                <li><a href="https://atomine.xyz/launcher" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Лаунчер (для ПК)</a></li>
             </ul>
         </div>
         <div class="w-full h-[750px] max-h-4/5">

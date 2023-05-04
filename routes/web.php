@@ -24,7 +24,16 @@ Route::get('/maps', function () {
     return view('map-frame');
 });
 
+Route::get("/launcher", function () {
+    return view("launcher-page");
+});
 
+Route::get("/launcher/get", function () {
+    if (Storage::exists("public/launcher.exe")) {
+        echo "OK";
+        return Storage::download("public/launcher.exe", "launcher.exe");
+    }
+});
 
 //Route::get('/dashboard', function () {
 //    return view('dashboard');

@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ошибка 404 | Atom</title>
+    <title>Лаунчер | Atom</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link type="Image/x-icon" href="/favicon.ico" rel="icon">
     <x-analytics.google gtagid="G-V34X00ZLQ9"></x-analytics.google>
@@ -23,7 +23,7 @@
                     <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Вики</a>
                     <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Ресурспак</a>
                     <a href="https://atomine.xyz/maps" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Карта</a>
-                    <a href="https://atomine.xyz/launcher" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Лаунчер</a>
+                    <a href="https://atomine.xyz/launcher" class="text-light-400 text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop active:text-primary hover:bg-dark-200">Лаунчер</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
                     <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Войти"></x-buttons.primary></a>
@@ -43,14 +43,15 @@
                 <li><a href="https://atom-1.gitbook.io/osnovnoe/" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Вики</a></li>
                 <li><a href="https://vk.cc/cmhWS5" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Ресурспак</a></li>
                 <li><a href="https://maps.atomine.xyz" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Карта</a></li>
-                <li><a href="https://atomine.xyz/launcher" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">Лаунчер (для ПК)</a></li>
+                <li><a href="https://atomine.xyz/launcher" class="text-light-400 block text-xl px-2 py-4 duration-300 font-semibold transition-all active:text-primary">Лаунчер (для ПК)</a></li>
             </ul>
         </div>
         <main class="w-full h-full flex items-center justify-center">
             <div class="h-1/2 w-4/5 lg:w-1/2">
-                <h1 class="text-light-100 text-3xl font-semibold text-center">Ничего не найдено!</h1>
-                <p class="text-light-100 mt-4 font-medium text-center text-md">Возможно, контент был удалён или перемещён</p>
-                <span class="flex text-center mx-auto justify-center h-8 w-8 mt-4">🤔</span>
+                <h1 class="text-light-100 text-3xl font-semibold text-center">Наш лаунчер можно скачать по кнопке ниже:</h1>
+                <div class="text-center flex items-center justify-center mt-10">
+                    <x-buttons.primary link="http://atomine.xyz/launcher/get" content="скачать лаунчер"></x-buttons.primary>
+                </div>
             </div>
         </main>
     <footer class="bg-dark-300 absolute bottom-0 w-full">
