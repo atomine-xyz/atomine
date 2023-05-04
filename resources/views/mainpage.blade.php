@@ -29,7 +29,7 @@
                     <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Вики</a>
                     <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Ресурспак</a>
                     <a href="https://atomine.xyz/maps" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Карта</a>
-                    <a href="https://drive.google.com/file/d/1V5-lzDWpgXesEXQvkbXK-8Xi50fTi4lK/view?usp=sharing" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Лаунчер</a>
+                    <a href="https://atomine.xyz/launcher" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Лаунчер</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
                     <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Авторизация"></x-buttons.primary></a>
