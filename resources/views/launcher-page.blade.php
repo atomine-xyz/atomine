@@ -50,7 +50,7 @@
             <div class="h-1/2 w-4/5 lg:w-1/2">
                 <h1 class="text-light-100 text-3xl font-semibold text-center">Наш лаунчер можно скачать по кнопке ниже:</h1>
                 <div class="text-center flex flex-col items-center justify-center mt-10">
-                    <x-buttons.primary link="http://atomine.xyz/launcher/get" content="скачать для Windows" target="blank"></x-buttons.primary>
+                    <x-buttons.primary link="https://atomine.xyz/launcher/get" content="скачать для Windows" target="blank"></x-buttons.primary>
                     <span class="underline">
                         <x-buttons.link-default direct="https://atomine.xyz/launcher/get-jar" text="Также вы можете скачать jar-архив для установки на linux" target="blank"></x-buttons.link-default>
                     </span>
