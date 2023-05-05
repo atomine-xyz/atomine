@@ -26,7 +26,7 @@
                     <a href="https://atomine.xyz/launcher" class="text-light-400 text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop active:text-primary hover:bg-dark-200">Лаунчер</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
-                    <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Войти"></x-buttons.primary></a>
+                    <x-buttons.primary link="https://atomine.xyz/auth" content="Войти" target="self"></x-buttons.primary>
                 </div>
                 <div class="block lg:hidden">
                     <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
@@ -49,8 +49,11 @@
         <main class="w-full h-full flex items-center justify-center">
             <div class="h-1/2 w-4/5 lg:w-1/2">
                 <h1 class="text-light-100 text-3xl font-semibold text-center">Наш лаунчер можно скачать по кнопке ниже:</h1>
-                <div class="text-center flex items-center justify-center mt-10">
-                    <x-buttons.primary link="http://atomine.xyz/launcher/get" content="скачать лаунчер"></x-buttons.primary>
+                <div class="text-center flex flex-col items-center justify-center mt-10">
+                    <x-buttons.primary link="http://atomine.xyz/launcher/get" content="скачать для Windows" target="blank"></x-buttons.primary>
+                    <span class="underline">
+                        <x-buttons.link-default direct="https://atomine.xyz/launcher/get-jar" text="Также вы можете скачать jar-архив для установки на linux" target="blank"></x-buttons.link-default>
+                    </span>
                 </div>
             </div>
         </main>

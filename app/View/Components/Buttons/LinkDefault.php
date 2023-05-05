@@ -10,14 +10,16 @@ class LinkDefault extends Component
 {
     public $direct;
     public $text;
+    public $target;
 
     /**
      * Create a new component instance.
      */
-    public function __construct($direct, $text)
+    public function __construct($direct, $text, $target)
     {
         $this->direct = $direct;
         $this->text = $text;
+        $this->target = $target;
     }
 
     /**

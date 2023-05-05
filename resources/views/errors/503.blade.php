@@ -27,7 +27,7 @@
                 <a href="https://atomine.xyz/launcher" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Лаунчер</a>
             </nav>
             <div class="my-auto hidden lg:block">
-                <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Войти"></x-buttons.primary></a>
+                <x-buttons.primary link="https://atomine.xyz/auth" content="Войти" target="self"></x-buttons.primary>
             </div>
             <div class="block lg:hidden">
                 <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">

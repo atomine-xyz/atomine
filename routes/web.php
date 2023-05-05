@@ -30,8 +30,13 @@ Route::get("/launcher", function () {
 
 Route::get("/launcher/get", function () {
     if (Storage::exists("public/launcher.exe")) {
-        echo "OK";
         return Storage::download("public/launcher.exe", "launcher.exe");
+    }
+});
+
+Route::get("/launcher/get-jar", function () {
+    if (Storage::exists("public/launcher.jar")) {
+        return Storage::download("public/launcher.jar", "launcher.jar");
     }
 });
 

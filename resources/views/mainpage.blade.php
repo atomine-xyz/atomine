@@ -32,7 +32,7 @@
                     <a href="https://atomine.xyz/launcher" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Лаунчер</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
-                    <a href="#"><x-buttons.primary link="https://atomine.xyz/auth" content="Авторизация"></x-buttons.primary></a>
+                    <x-buttons.primary link="https://atomine.xyz/auth" content="Авторизация" target="self"></x-buttons.primary>
                 </div>
                 <div class="block lg:hidden">
                     <button class="mobile-menu-button outline-none my-5 transition duration-300 ease-in-crop">
@@ -57,7 +57,7 @@
                 <div class="w-full lg:w-0 lg:basis-2/5 text-center lg:text-left flex flex-col items-center lg:block">
                     <h1 class="text-5xl mb-6 font-bold leading-def"><span class="text-primary">Atom</span> - приватный Minecraft сервер</h1>
                     <p class="text-lg">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
-                    <x-buttons.primary link="http://atomine.xyz#about" content="Попасть на сервер"></x-buttons.primary>
+                    <x-buttons.primary link="http://atomine.xyz#about" content="Попасть на сервер" target="self"></x-buttons.primary>
                 </div>
                 <div class="lg:basis-3/5"></div>
             </div>

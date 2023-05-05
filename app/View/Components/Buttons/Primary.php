@@ -10,13 +10,15 @@ class Primary extends Component
 {
     public $link;
     public $content;
+    public $target;
     /**
      * Create a new component instance.
      */
-    public function __construct($link, $content)
+    public function __construct($link, $content, $target)
     {
         $this->link = $link;
         $this->content = $content;
+        $this->target = $target;
     }
 
     /**
