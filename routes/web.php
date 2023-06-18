@@ -24,8 +24,8 @@ Route::get('/maps', function () {
     return view('map-frame');
 });
 
-Route::get("/launcher", function () {
-    return view("launcher-page");
+Route::get("/discord", function () {
+    return redirect()->away('https://discord.gg/yvhzsk7ZJa');
 });
 
 Route::get("/launcher/get", function () {

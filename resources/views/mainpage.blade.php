@@ -21,7 +21,7 @@
         <header class="w-full h-[80px] absolute top-0 z-20">
             <div class="max-w-[1520px] w-5/6 px-3 mx-auto flex justify-between py-2">
                 <div class="inline-flex items-center my-auto">
-                    <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="" class="h-[60px]">
+                    <img src="{{ Vite::asset('resources/images/atom-60px.webp') }}" alt="" class="h-[60px]">
                     <h1 class="text-3xl">Atom</h1>
                 </div>
                 <nav class="my-auto hidden lg:block">
@@ -29,7 +29,7 @@
                     <a href="https://atom-1.gitbook.io/osnovnoe/" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Вики</a>
                     <a href="https://vk.cc/cmhWS5" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Ресурспак</a>
                     <a href="https://atomine.xyz/maps" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Карта</a>
-                    <a href="https://atomine.xyz/launcher" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Лаунчер</a>
+                    <a href="https://atomine.xyz/discord" class="text-2xl px-4 py-2 mx-1 rounded-xl transition-all transition-in-crop hover:text-primary active:text-primary hover:bg-dark-200">Discord</a>
                 </nav>
                 <div class="my-auto hidden lg:block">
                     <x-buttons.primary link="https://atomine.xyz/auth" content="Авторизация" target="self"></x-buttons.primary>
@@ -121,7 +121,7 @@
         <div class="w-full lg:w-5/6 py-3 mx-auto flex justify-between px-6">
             <div class="h-14">
                 <a href="https://atomine.xyz" class="flex flex-row">
-                    <img src="{{ Vite::asset('resources/images/atom_white.png') }}" alt="лого Атома" class="h-14">
+                    <img src="{{ Vite::asset('resources/images/atom-60px.webp') }}" alt="лого Атома" class="h-14">
                     <div class="text-xl mt-3">
                         <h1 class="text-3xl pl-2">Atom</h1>
                     </div>
