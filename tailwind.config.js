@@ -54,7 +54,7 @@ module.exports = {
                 300: '#282325',
             },
 
-            'primary': '#A46CFF',
+            'primary': '#008FFE',
 
         },
 
