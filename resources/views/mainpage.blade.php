@@ -102,7 +102,7 @@
     <div class="w-full lg:w-5/6 mx-auto px-3 flex flex-col lg:flex-row gap-10 mb-28 text-center lg:text-left">
         <div class="basis-1/2 lg:basis-1/4 bg-dark-300 rounded-2xl py-8 lg:py-3 px-4">
             <h2 class="text-2xl font-semibold">Какая версия?</h2>
-            <p class="text-md">Вы можете зайти на наш сервер с версии <span class="text-primary">1.19</span> и выше</p>
+            <p class="text-md">Вы можете зайти на наш сервер с версии <span class="text-primary">1.20</span></p>
         </div>
         <div class="lg:basis-1/4 bg-dark-300 rounded-2xl py-8 lg:py-3 px-4">
             <h2 class="text-2xl font-semibold">Нужна лицензия?</h2>
