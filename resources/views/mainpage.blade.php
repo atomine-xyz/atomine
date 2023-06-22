@@ -55,7 +55,7 @@
         <div class="w-full h-[750px] max-h-4/5">
             <div class="max-w-[1520px] w-5/6 px-3 mx-auto flex flex-row h-full items-center">
                 <div class="w-full lg:w-0 lg:basis-2/5 text-center lg:text-left flex flex-col items-center lg:block">
-                    <h1 class="text-5xl mb-6 font-bold leading-def"><span class="text-primary">Atom</span> - приватный Minecraft сервер</h1>
+                    <h1 class="text-5xl mb-6 font-bold leading-def"><span class="text-[#40e5ff]">Atom</span> - приватный Minecraft сервер</h1>
                     <p class="text-lg">Atom - это приватный сервер, с элементами RP, интересными механиками и историей, которые не дадут заскучать любому игроку.</p>
                     <x-buttons.primary link="http://atomine.xyz#about" content="Попасть на сервер" target="self"></x-buttons.primary>
                 </div>
