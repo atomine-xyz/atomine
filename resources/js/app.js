@@ -1,13 +1,9 @@
 import './bootstrap';
-import 'boxicons';
-import Alpine from 'alpinejs';
 
+import Alpine from 'alpinejs';
+import focus from '@alpinejs/focus';
 window.Alpine = Alpine;
 
+Alpine.plugin(focus);
+
 Alpine.start();
-
-import.meta.glob([
-    '../images/**',
-    '../fonts/**',
-]);
-
