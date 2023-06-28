@@ -89,7 +89,7 @@
                     <h2 class="text-2xl font-medium">Начни играть уже сейчас!</h2>
                 </div>
                 <div class="flex flex-row items-center">
-                    <a href="https://vk.com/atomine?w=product-219076783_7977745" class="text-center text-primary bg-light-100 rounded-xl py-3 relative bottom-0 left-0 w-28">Купить</a>
+                    <a href="https://vk.com/im?media=&sel=-219076783" class="text-center text-primary bg-light-100 rounded-xl py-3 relative bottom-0 left-0 w-28">Купить</a>
                     <div class="px-2 font-medium">
                         <p>Стоимость</p>
                         <p class="font-bold">139₽</p>
