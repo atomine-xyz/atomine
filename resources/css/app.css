@@ -5,3 +5,14 @@
 [x-cloak] {
     display: none;
 }
+
+@layer base {
+    html {
+        background: #0D0D0D;
+        color: #ffffff;
+    }
+
+    .vis {
+        transform: translateX(100%);
+    }
+}
