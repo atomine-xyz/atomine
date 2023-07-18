@@ -7,3 +7,8 @@ window.Alpine = Alpine;
 Alpine.plugin(focus);
 
 Alpine.start();
+
+import.meta.glob([
+    '../images/**',
+    '../fonts/**',
+]);
