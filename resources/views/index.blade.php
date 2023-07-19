@@ -14,7 +14,7 @@
 <body>
     <x-navbar></x-navbar>
     <main class="mx-auto w-full mb-48 pt-14">
-        <div class="w-full bg-dark-400 mb-16">
+        <div class="w-full bg-dark-400 mb-10">
             <div class="container flex flex-row mx-auto lg:bg-model-1 bg-cover bg-no-repeat bg-right">
                 <div class="w-full lg:w-1/2 text-center lg:text-left flex">
                     <div class="w-full mt-32 mb-40">
@@ -25,14 +25,14 @@
                 </div>
             </div>
         </div>
-        <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-x-4 items-center px-4 lg:px-0">
+        <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-x-4 items-end px-4 lg:px-0">
             <div class="w-full pb-4 lg:pb-0">
                 <p class="font-extralight text-center lg:text-right text-xl">
                     Мы - компания обычных игроков, объединенных общей идеей и желанием создать идеальный приватный сервер по майнкрафту. Atom - наша воплощенная идея в реальность, благодаря безграничному энтузиазму и непрерывной работе. Нашей главной задачей является не заработок, а развитие и улучшение проекта.
                 </p>
             </div>
             <div class="w-full">
-                <img src="{{ Vite::asset('resources/images/model-2.png') }}" alt="" class="w-2/3 mx-auto lg:mx-0 lg:w-full">
+                <img src="https://e.radikal.host/2023/07/18/P41AF.png" alt="" class="w-2/3 mx-auto lg:mx-0 lg:w-full">
             </div>
         </div>
         <div class="max-w-screen-xl mx-auto mt-20 mb-8 px-4 lg:px-0">
