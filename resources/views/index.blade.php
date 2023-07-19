@@ -40,9 +40,9 @@
         </div>
         <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-x-4 items-center px-4 lg:px-0">
             <div class="w-full">
-                <img src="{{ Vite::asset('resources/images/pic-1.png') }}" alt="" class="rounded-xl">
+                <img src="{{ Vite::asset('resources/images/pic.png') }}" alt="" class="rounded-xl">
             </div>
-            <div class="w-full pt-4">
+            <div class="w-full">
                 <p class="font-extralight text-xl text-center lg:text-left">
                     На нашем проекте вы сможете создавать города, а также участвовать во множестве захватывающих ивентов и принимать активное участие в жизни сервера.
                 </p>
