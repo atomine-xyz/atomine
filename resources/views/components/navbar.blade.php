@@ -1,6 +1,6 @@
-<header class="h-14 w-full bg-dark-100 absolute z-20">
-    <nav class="container mx-auto flex flex-row align-middle px-3 justify-between">
-        <div class="basis-1/5 flex-none h-14 flex items-center text-left">
+<header class="h-16 w-full bg-dark-100 absolute z-20">
+    <nav class="container mx-auto flex flex-row align-middle h-full px-3 justify-between">
+        <div class="basis-1/5 flex-none h-full flex items-center text-left">
             <svg
                 class="h-8"
                 id="_Слой_1"
@@ -39,11 +39,21 @@
         </div>
         <div class="basis-3/5 hidden lg:inline-flex items-center justify-center">
             @foreach($links as $name => $link)
+                @php
+                    if (Str::startsWith($name, "_")) {
+                        $target = "_blank";
+                        $name = substr($name, 1);
+                    }
+                    else {
+                        $target = "_self";
+                    }
+                @endphp
+
                 @if(Str::startsWith($link, "#"))
-                    <a href="{{ url('/') }}/{{ substr($link, 2) }}" class="px-2 font-sans font-medium text-xl leading-7 hover:text-primary">{{ $name }}</a>
+                    <a href="{{ url('/') }}/{{ substr($link, 2) }}" class="px-2 font-sans font-medium text-xl leading-7 hover:text-primary" target="{{ $target }}">{{ $name }}</a>
                     @continue
                 @endif
-                <a href="{{ $link }}" class="px-2 font-sans font-medium text-xl leading-7 hover:text-primary transition-all">{{ $name }}</a>
+                <a href="{{ $link }}" class="px-2 font-sans font-medium text-xl leading-7 hover:text-primary transition-all" target="{{ $target }}">{{ $name }}</a>
             @endforeach
         </div>
         <div class="inline-flex lg:hidden items-center justify-end">
@@ -53,20 +63,30 @@
                 </svg>
             </button>
         </div>
-        <div class="basis-1/5 flex-none hidden lg:inline-flex items-center justify-end font-serif font-xl">
+        <div class="basis-1/5 flex-none hidden lg:inline-flex items-center justify-end text-xl">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-light-100 border-2 border-light-100 rounded-lg px-4 py-1 font-regular box-border hover:bg-light-100 hover:text-dark-400 transition-all">Войти</a>
             {{--<img src="https://visage.surgeplay.com/face/cc15e306b74d4255a7bae99dc96da244" alt="голова игрока L4DNO" class="w-8 h-auto">--}}
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Войти</a>
         </div>
     </nav>
 </header>
 <div class="mobile-menu h-full absolute inset-y-0 m-0 transition duration-300 ease-in-crop top-0 w-full -left-[100%] bg-dark-300 z-10">
     <ul class="font-sans text-center transition-all w-full bg-dark-400 h-full pt-20">
         @foreach($links as $name => $link)
+            @php
+                if (Str::startsWith($name, "_")) {
+                    $target = "_blank";
+                    $name = substr($name, 1);
+                }
+                else {
+                    $target = "_self";
+                }
+            @endphp
+
             @if(Str::startsWith($link, "#"))
-                <li><a href="{{ url('/') }}/{{ substr($link, 2) }}" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">{{ $name }}</a></li>
+                <li><a href="{{ url('/') }}/{{ substr($link, 2) }}" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary" target="{{ $target }}">{{ $name }}</a></li>
                 @continue
             @endif
-                <li><a href="{{ $link }}" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary">{{ $name }}</a></li>
+                <li><a href="{{ $link }}" class="block text-xl px-2 py-4 duration-300 font-semibold transition-all hover:text-primary active:text-primary" target="{{ $target }}">{{ $name }}</a></li>
         @endforeach
 
     </ul>

@@ -13,13 +13,13 @@
 </head>
 <body>
     <x-navbar></x-navbar>
-    <main class="mx-auto w-full mb-48 pt-14">
+    <main class="mx-auto w-full mb-28 pt-14">
         <div class="w-full bg-dark-400 mb-10">
             <div class="container flex flex-row mx-auto lg:bg-model-1 bg-cover bg-no-repeat bg-right">
                 <div class="w-full lg:w-1/2 text-center lg:text-left flex">
-                    <div class="w-full mt-32 mb-40">
-                        <h1 class="text-6xl font-extrabold leading-tight px-4 lg:px-0">Приватный Minecraft сервер</h1>
-                        <p class="font-regular mt-4 mb-8 text-[#717D75] text-xl">С уникальными фишками и комьюнити</p>
+                    <div class="w-full mt-20 mb-20">
+                        <h1 class="text-5xl leading-snug font-extrabold px-4 lg:px-0">Приватный Minecraft сервер</h1>
+                        <p class="font-regular mt-4 mb-8 lg:mb-16 text-[#717D75] text-xl">С уникальными фишками и комьюнити</p>
                         <a href="#" class="bg-transparent border-2 border-light-100 rounded-xl px-6 py-3 hover:bg-light-100 hover:text-dark-400 transition-all active:text-light-100 active:bg-primary active:border-primary">Купить проходку</a>
                     </div>
                 </div>
@@ -51,25 +51,31 @@
         <div class="max-w-screen-xl mx-auto mt-20 mb-8 px-4 lg:px-0">
             <h1 class="font-bold text-3xl text-center">Хочешь попасть на сервер? Тогда скорее покупай проходку!</h1>
         </div>
-        <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-x-4 items-start px-4 lg:px-0">
-            <div class="w-full p-8 pb-10 bg-gradient-to-r from-gr-first to-gr-second rounded-xl">
-                <h1 class="text-2xl font-bold">Проходка на один сезон</h1>
-                <span class="text-3xl font-bold leading-relaxed">139₽</span>
-                <ul class="list-disc ml-5 mt-1 mb-6">
-                    <li>Версия 1.20+</li>
-                    <li>Можно зайти как с лицензии, так и с пиратки</li>
-                </ul>
-                <a href="https://vk.com/im?media=&sel=-219076783" class="bg-light-100 text-dark-400 border-2 border-light-100 rounded-xl px-6 py-3 font-semibold box-border hover:bg-transparent hover:text-light-100 transition-all">Купить</a>
+        <div class="max-w-screen-xl mx-auto px-4 grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-4">
+            <div class="p-6 pb-7 bg-gradient-to-r from-gr-first to-gr-second rounded-xl flex flex-col place-content-between">
+                <div>
+                    <h1 class="text-2xl font-bold">Проходка на один сезон</h1>
+                    <span class="text-3xl font-bold leading-relaxed">139₽</span>
+                    <ul class="list-disc ml-5 mt-1 mb-6">
+                        <li>Версия 1.20+</li>
+                        <li>Можно зайти как с лицензии, так и с пиратки</li>
+                    </ul>
+                </div>
+                <a href="https://vk.com/im?media=&sel=-219076783" class="text-center w-1/3 md:w-1/4 inline-block bg-light-100 text-dark-400 border-2 border-light-100 rounded-xl lg:px-6 py-3 font-semibold box-border hover:bg-transparent hover:text-light-100 transition-all">Купить</a>
+
             </div>
-            <div class="w-full p-8 pb-10 bg-dark-100 rounded-xl">
-                <h1 class="text-2xl font-bold">Проходка на один сезон на двоих</h1>
-                <span class="text-3xl font-bold leading-relaxed">189₽</span>
-                <ul class="list-disc ml-5 mt-1 mb-6">
-                    <li>версия 1.20+</li>
-                    <li>можно зайти как с лицензии, так и с пиратки</li>
-                    <li>проходка для двоих: отличный шанс сэкономить!</li>
-                </ul>
-                <a href="https://vk.com/im?media=&sel=-219076783" class="bg-light-100 text-dark-400 border-2 border-light-100 rounded-xl px-6 py-3 font-semibold box-border hover:bg-transparent hover:text-light-100 transition-all">Купить</a>
+            <div class="p-6 pb-7 bg-dark-100 rounded-xl flex flex-col place-content-between">
+                <div>
+                    <h1 class="text-2xl font-bold">Проходка на один сезон на двоих</h1>
+                    <span class="text-3xl font-bold leading-relaxed">189₽</span>
+                    <ul class="list-disc ml-5 mt-1 mb-6">
+                        <li>версия 1.20+</li>
+                        <li>можно зайти как с лицензии, так и с пиратки</li>
+                        <li>проходка для двоих: отличный шанс сэкономить!</li>
+                    </ul>
+                </div>
+                <a href="https://vk.com/im?media=&sel=-219076783" class="text-center w-1/3 md:w-1/4 bg-light-100 text-dark-400 border-2 border-light-100 rounded-xl lg:px-6 py-3 font-semibold box-border hover:bg-transparent hover:text-light-100 transition-all">Купить</a>
+
             </div>
         </div>
     </main>
