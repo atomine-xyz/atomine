@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/discord', function () {
+    return redirect()->away("https://discord.gg/yvhzsk7ZJa");
+});
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

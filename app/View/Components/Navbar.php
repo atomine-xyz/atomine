@@ -16,7 +16,7 @@ class Navbar extends Component
     public function __construct()
     {
 
-        $this->links = ['Вики' => "https://atom-1.gitbook.io/osnovnoe/", 'Карта' => "https://maps.atomine.xyz", 'Ресурспак' => "https://vk.cc/cmhWS5", '_Discord' => "https://discord.gg/yvhzsk7ZJa"];
+        $this->links = ['Вики' => "https://atom-1.gitbook.io/osnovnoe/", 'Карта' => "https://maps.atomine.xyz", 'Ресурспак' => "https://vk.cc/cmhWS5", '_Discord' => "#:discord"];
     }
 
     /**
