@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WikiController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Arr;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +19,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
+});
+
+Route::get('/test', function () {
+
 });
 
 Route::get('/discord', function () {
