@@ -12,6 +12,10 @@
         color: #ffffff;
     }
 
+    a {
+        @apply transition-all hover:text-primary
+    }
+
     .vis {
         transform: translateX(100%);
     }

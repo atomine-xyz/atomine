@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>404 | Atom</title>
+    <title>Вики | Atom</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link type="Image/x-icon" href="{{ Vite::asset('resources/images/favicon.ico') }}" rel="icon">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
@@ -13,13 +13,14 @@
 </head>
 <body class="h-screen">
 <x-navbar></x-navbar>
-<main class="mx-auto w-full pt-16">
-    <div class="flex flex-col w-full h-full align-middle items-center mt-48">
-        <h1 class="text-center text-3xl font-bold">404: не найдено!</h1>
-        <p class="text-md pt-4 font-extralight text-center">Возможно, вы перешли по сслыке, которую удалили, или просто ввели ссылку неправильно.</p>
+<main class="container mx-auto mb-28 pt-24 flex gap-x-4 flex-col lg:flex-row px-4">
+    <div class="basis-1/4">
+        <div class="bg-dark-100 p-4 rounded-md">{!! $catalogs !!}</div>
     </div>
+    @vite(['resources/css/wiki.css'])
+    <div class="basis-3/4 p-4 !leading-loose">{!! $content !!}</div>
 </main>
-<x-footer isFixed="1"></x-footer>
+<x-footer isFixed="0"></x-footer>
 <x-j-spaste></x-j-spaste>
 </body>
 </html>

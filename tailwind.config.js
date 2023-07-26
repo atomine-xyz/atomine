@@ -10,6 +10,16 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
     ],
+    safelist: [
+        'pb-8',
+        'pb-4',
+        'pb-2',
+        'pt-4',
+        'pt-2',
+        'leading-loose',
+        'mr-4'
+
+    ],
 
     theme: {
         screens: {

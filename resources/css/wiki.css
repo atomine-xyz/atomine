@@ -1,0 +1,30 @@
+@import "app.css";
+
+@layer base {
+    img:not([alt='flutty']) {
+        @apply rounded-md mx-auto
+    }
+
+    h1 > img {
+        @apply inline-block h-8 !mr-2
+    }
+
+    :not(figure) > img :not([alt='flutty']) {
+        @apply my-4
+    }
+    figure {
+        @apply my-4 text-center text-light-400
+    }
+    ol {
+        @apply list-disc ml-5
+    }
+    h1 {
+        @apply mb-4
+    }
+    p {
+        @apply py-2
+    }
+    a:not(ul > * > a):not(nav > * > a) {
+        @apply text-primary hover:text-light-100
+    }
+}

@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="h-full">
     <x-navbar></x-navbar>
-    <main class="mx-auto w-full mb-28 pt-14">
+    <main class="mx-auto w-full mb-28 pt-16">
         <div class="w-full bg-dark-400 mb-10">
             <div class="container flex flex-row mx-auto lg:bg-model-1 bg-cover bg-no-repeat bg-right">
                 <div class="w-full lg:w-1/2 text-center lg:text-left flex">
@@ -79,7 +79,7 @@
             </div>
         </div>
     </main>
-    <x-footer isAbsolute="0"></x-footer>
+    <x-footer isFixed="0"></x-footer>
     <x-j-spaste></x-j-spaste>
 </body>
 </html>

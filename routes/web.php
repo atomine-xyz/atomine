@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\WikiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,10 +19,17 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/test', function () {
+    return view('wiki');
+});
+
 Route::get('/discord', function () {
     return redirect()->away("https://discord.gg/yvhzsk7ZJa");
 });
 
+Route::prefix('/wiki')->group(function() {
+    Route::get("/{url?}", [WikiController::class, 'show'])->where('url', '.*');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

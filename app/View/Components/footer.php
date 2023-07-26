@@ -8,14 +8,14 @@ use Illuminate\View\Component;
 
 class footer extends Component
 {
-    public $isAbsolute;
+    public $isFixed;
 
     /**
      * Create a new component instance.
      */
-    public function __construct($isAbsolute = false)
+    public function __construct($isFixed = false)
     {
-        $this->isAbsolute = booleanValue($isAbsolute);
+        $this->isFixed = booleanValue($isFixed);
     }
 
     /**
