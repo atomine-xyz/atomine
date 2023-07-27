@@ -9,6 +9,10 @@
         @apply inline-block h-8 !mr-2
     }
 
+    a > img {
+        @apply  inline-block h-5 mr-2
+    }
+
     :not(figure) > img :not([alt='flutty']) {
         @apply my-4
     }
