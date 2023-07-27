@@ -21,10 +21,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/test', function () {
-
-});
-
 Route::get('/discord', function () {
     return redirect()->away("https://discord.gg/yvhzsk7ZJa");
 });
