@@ -20,7 +20,7 @@
                     <div class="w-full mt-20 mb-20">
                         <h1 class="text-5xl leading-snug font-extrabold px-4 lg:px-0">Приватный Minecraft сервер</h1>
                         <p class="font-regular mt-4 mb-8 lg:mb-16 text-[#717D75] text-xl">С уникальными фишками и комьюнити</p>
-                        <a href="#" class="bg-transparent border-2 border-light-100 rounded-xl px-6 py-3 hover:bg-light-100 hover:text-dark-400 transition-all active:text-light-100 active:bg-primary active:border-primary">Купить проходку</a>
+                        <a href="#buy" class="bg-transparent border-2 border-light-100 rounded-xl px-6 py-3 hover:bg-light-100 hover:text-dark-400 transition-all active:text-light-100 active:bg-primary active:border-primary">Купить проходку</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="max-w-screen-xl mx-auto mt-20 mb-8 px-4 lg:px-0">
-            <h1 class="font-bold text-3xl text-center">Хочешь попасть на сервер? Тогда скорее покупай проходку!</h1>
+            <h1 class="font-bold text-3xl text-center" id="buy">Хочешь попасть на сервер? Тогда скорее покупай проходку!</h1>
         </div>
         <div class="max-w-screen-xl mx-auto px-4 grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-4">
             <div class="p-6 pb-7 bg-gradient-to-r from-gr-first to-gr-second rounded-xl flex flex-col place-content-between">
