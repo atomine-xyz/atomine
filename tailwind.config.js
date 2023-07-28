@@ -52,6 +52,7 @@ export default {
                 'primary': '#0090FF',
                 'gr-first': '#6299E2',
                 'gr-second': '#165DBB',
+                'error': '#912b15',
             },
             backgroundImage: {
                 'model-1': "url('/resources/images/model-1.png')",
