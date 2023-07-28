@@ -20,7 +20,7 @@
         @apply my-4 text-center text-light-400
     }
     ol {
-        @apply list-disc ml-5
+        @apply list-decimal ml-5
     }
     h1 {
         @apply mb-4
