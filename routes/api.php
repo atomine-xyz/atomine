@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Storage;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +18,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::post('/easydonate', function (Request $request) {
+    $body = $request->all();
+    if (empty($body)) {
+        dd("Пусто");
+    }
+    else {
+        $webhookmessage = [
+            'embeds' => [
+                'title' => 'Чел с ником `' . $body['customer'] . '` купил проходку. Тип: ' . $body['payment_type'] . '. Время: ' .$body['created_at']
+            ],
+            'content' => null
+        ];
+        Http::post(env('DISCORD_WEBHOOK'), $webhookmessage);
+
+    }
 });
