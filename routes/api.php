@@ -27,11 +27,7 @@ Route::post('/easydonate', function (Request $request) {
     }
     else {
         $webhookmessage = [
-            'embeds' => [
-                'title' => 'Чел с ником `' . $body['customer'] . '` купил проходку. Тип: ' . $body['payment_type'] . '. Время: ' .$body['created_at'],
-                'color' => 6402468
-            ],
-            'content' => null
+            'content' => 'Чел с ником `' . $body['customer'] . '` купил проходку. Тип: ' . $body['payment_type'] . '. Время: ' .$body['created_at']
         ];
         Http::post(env('DISCORD_WEBHOOK'), $webhookmessage);
 
