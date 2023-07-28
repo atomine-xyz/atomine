@@ -16,8 +16,8 @@
 <main class="mx-auto w-full mb-28 pt-16">
     <div class="max-w-screen-md mx-auto p-4 flex flex-col items-center justify-center mt-10 bg-dark-200 rounded-xl ">
         <h1 class="text-2xl font-extrabold text-center mb-2">Спасибо за покупку!</h1>
-        <p class="indent-4">Теперь вы можете зайти на сервер под ником, который вы ввели при покупке. Не забудте прочитать пару статей на
-            <a href="/wiki" class="text-primary hover:text-light-200">вики</a> и вступить на наш <a href="/discord" class="text-primary hover:text-light-200">Discord-сервер</a>
+        <p class="indent-4">Теперь вы можете зайти на сервер под ником, который вы ввели при покупке. ОБЯЗАТЕЛЬНО ПРОЧИТАЙТЕ
+            <a href="/wiki" class="text-primary hover:text-light-200">нашу вики</a> и вступите на наш <a href="/discord" class="text-primary hover:text-light-200">Discord-сервер</a>
         </p>
     </div>
 </main>
