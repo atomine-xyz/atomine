@@ -5,8 +5,7 @@ use App\Http\Controllers\WikiController;
 use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
-use Illuminate\Support\Facades\Storage;
-
+use App\Services\PaymentManager;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +18,7 @@ use Illuminate\Support\Facades\Storage;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', ['price' => PaymentManager::getPrice()]);
 });
 
 Route::get('/buy', [PaymentController::class, 'show'])->name('buying');

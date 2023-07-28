@@ -55,7 +55,7 @@
             <div class="p-6 pb-7 bg-gradient-to-r from-gr-first to-gr-second rounded-xl flex flex-col place-content-between">
                 <div>
                     <h1 class="text-2xl font-bold">Проходка на один сезон</h1>
-                    <span class="text-3xl font-bold leading-relaxed">119₽</span>
+                    <span class="text-3xl font-bold leading-relaxed">{{ $price }}₽</span>
                     <ul class="list-disc ml-5 mt-1 mb-6">
                         <li>Версия 1.20+</li>
                         <li>Можно зайти как с лицензии, так и с пиратки</li>
