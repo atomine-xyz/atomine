@@ -15,7 +15,7 @@
 <x-navbar></x-navbar>
 <main class="container mx-auto mb-28 pt-24 flex gap-x-4 flex-col lg:flex-row px-4">
     <div class="basis-1/4">
-        <div class="bg-dark-100 p-4 rounded-md">{!! $catalogs !!}</div>
+        <aside class="bg-dark-100 p-4 rounded-md">{!! $catalogs !!}</aside>
     </div>
     @vite(['resources/css/wiki.css'])
     <div class="basis-3/4 p-4 !leading-loose">{!! $content !!}</div>
