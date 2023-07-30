@@ -23,7 +23,7 @@
         @apply list-decimal ml-5
     }
 
-    ul:not(aside > ul) {
+    ul:not(aside > ul):not(.mobile-menu >  ul) {
         @apply list-disc ml-5
     }
 
@@ -34,6 +34,14 @@
         @apply py-2
     }
     a:not(ul > * > a):not(nav > * > a) {
-        @apply text-primary hover:text-light-100
+        @apply text-primary hover:text-light-100 my-1
+    }
+
+    table {
+        @apply border border-[#ffffff]
+    }
+
+    th, td {
+        @apply border border-[#ffffff] text-center p-2
     }
 }

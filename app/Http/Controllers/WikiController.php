@@ -54,7 +54,7 @@ class WikiController extends Controller
                     'class' => static function(Heading $node) {
                         switch ($node->getLevel()) {
                             case 1: return 'text-3xl font-extrabold';
-                            case 2: return 'text-2xl font-bold pb-2 pt-4';
+                            case 2: return 'text-2xl font-bold pb-2 pt-5';
                             case 3: return 'text-xl font-bold pt-2';
                         }
                     }
