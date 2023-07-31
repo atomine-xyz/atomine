@@ -11,14 +11,12 @@ use Illuminate\Support\Arr;
 class Navbar extends Component
 {
     public array $links;
-    public string $url;
 
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        $this->url = Storage::url(Arr::random(Storage::allFiles('public\animan')));
         $this->links = ['Вики' => "#:wiki", 'Карта' => "https://maps.atomine.xyz", '_Ресурспак' => "https://vk.cc/cmhWS5", '_Discord' => "#:discord"];
     }
 

@@ -66,7 +66,7 @@
             </button>
         </div>
         <div class="basis-1/5 flex-none hidden lg:inline-flex items-center justify-end text-xl">
-            <a href="{{ $url }}" class="text-light-100 border-2 border-light-100 rounded-lg px-4 py-1 font-regular box-border hover:bg-light-100 hover:text-dark-400 transition-all">Войти</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-light-100 border-2 border-light-100 rounded-lg px-4 py-1 font-regular box-border hover:bg-light-100 hover:text-dark-400 transition-all" target="_blank">Войти</a>
             {{--<img src="https://visage.surgeplay.com/face/cc15e306b74d4255a7bae99dc96da244" alt="голова игрока L4DNO" class="w-8 h-auto">--}}
         </div>
     </nav>
