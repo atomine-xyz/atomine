@@ -23,13 +23,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/easydonate', function (Request $request) {
     $body = $request->all();
     if (empty($body)) {
-        dd("Пусто");
+        return "EMPTY REQUEST";
     }
     else {
         $webhookmessage = [
-            'content' => 'Чел с ником `' . $body['customer'] . '` купил проходку. Тип: ' . $body['payment_type'] . '. Время: ' .$body['created_at']
+            'content' => 'Чел с ником **`' . $body['customer'] . '`** купил проходку. Метод оплаты: **`' . $body['payment_type'] . '`**. Время: **`' .$body['created_at'] . "`**."
         ];
         Http::post(env('DISCORD_WEBHOOK'), $webhookmessage);
-
+        return "COMPLETE";
     }
 });
