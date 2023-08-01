@@ -26,6 +26,9 @@
                     <input type="submit" value="Купить" class="font-bold w-full h-12 rounded-r-xl bg-light-100 text-dark-400 hover:bg-transparent hover:text-light-100 transition border-2 border-light-100 cursor-pointer">
                 </div>
             </div>
+            <div class="w-full mx-auto mt-4">
+                <input type="text" name="coupon" value="{{ old('coupon') }}" placeholder="Промокод (необязательно)" class="w-full bg-transparent h-12 text-light-100 border border border-light-300 rounded-xl focus:!ring-transparent">
+            </div>
             <p class="italic mt-3 text-sm">Внимание: убедитесь, что вы прописали свой никнейм правильно!</p>
         </form>
     </div>

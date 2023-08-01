@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26f7bdf8586d47434dd208fd7f274e95",
+    "content-hash": "fafabc2860ee132d19043ba37e7c18d6",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1212,6 +1212,47 @@
                 }
             ],
             "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
+            "name": "l4dno/easydonate-php-sdk",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/l4dn0/Easydonate-PHP-SDK.git",
+                "reference": "a65136642ac2e3d369ec70cd86481eb1103b4282"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/l4dn0/Easydonate-PHP-SDK/zipball/a65136642ac2e3d369ec70cd86481eb1103b4282",
+                "reference": "a65136642ac2e3d369ec70cd86481eb1103b4282",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EasyDonate\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Fork of PHP EasyDonate SDK",
+            "keywords": [
+                "easydonate",
+                "minecraft",
+                "php",
+                "sdk"
+            ],
+            "support": {
+                "source": "https://github.com/l4dn0/Easydonate-PHP-SDK/tree/v1.0.2"
+            },
+            "time": "2023-08-01T09:27:58+00:00"
         },
         {
             "name": "laravel/breeze",
