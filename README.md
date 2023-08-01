@@ -1,4 +1,4 @@
-<p align="center"><a href="https://atomine.xyz" target="_blank"><img src="https://i.imgur.com/WILLH4z.png" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://atomine.xyz" target="_blank"><img src="https://i.imgur.com/kanw5rp.png" width="400" alt="Laravel Logo"></a></p>
 
 # Atom
 В этом репозитории расположен сайт приватного сервера Atom. Сайт создан на основе фреймворка [Laravel](https://github.com/laravel/laravel).
