@@ -2,8 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Http;
-
+use Spatie\DiscordAlerts\Facades\DiscordAlert;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -25,10 +24,18 @@ Route::post('/easydonate', function (Request $request) {
         return "EMPTY REQUEST";
     }
     else {
-        $webhookmessage = [
-            'content' => 'Чел с ником **`' . $body['customer'] . '`** купил проходку. Метод оплаты: **`' . $body['payment_type'] . '`**. Время: **`' .$body['created_at'] . "`**."
+        $webhookMessage = [
+            [
+                'title' => "Новая проходка, +{$body['income']} на счету, СЮДА!",
+                'description' => "Никнейм: **`{$body['customer']}`**.\nМетод оплаты: **`{$body['payment_type']}`**.\nВремя: **`{$body['created_at']}`**",
+                'color' => '#1ca9d4',
+                'author' => [
+                    'name' => 'Уведомления о проходках by L4DNO',
+                    'icon_url' => 'https://avatars.githubusercontent.com/u/56505485'
+                ],
+            ]
         ];
-        Http::post(env('DISCORD_WEBHOOK'), $webhookmessage);
-        return "COMPLETE";
+        DiscordAlert::message('', $webhookMessage);
+        return "OK";
     }
 });
