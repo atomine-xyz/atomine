@@ -2,8 +2,7 @@
 
 namespace App\Services;
 
-use Illuminate\Support\Facades\Http;
-use EasyDonate\Sdk;
+use L4dno\Sdk;
 
 class PaymentManager
 {
@@ -20,9 +19,8 @@ class PaymentManager
         $productId = env('EASYDONATE_PRODUCT_ID');
         $secret = env('EASYDONATE_SECRET');
 
-        $url = Http::withHeaders([
-            'Shop-key' => $secret
-        ])->get('https://easydonate.ru/api/v3/shop/product/' . $productId)->json();
-        return $url['response']['price'];
+        $sdk = new Sdk($secret);
+
+        return $sdk->getProduct($productId)->price;
     }
 }
