@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Services\PaymentManager;
-use Illuminate\Support\Str;
 
 class PaymentController extends Controller
 {
@@ -12,7 +11,7 @@ class PaymentController extends Controller
         $validated = $request->validate([
             'nickname' => ['required', 'max:16', 'alpha_dash:ascii', 'not_regex:/-/s']
         ]);
-        return PaymentManager::createPayment($request->input('nickname'), $request->input('coupon'));
+        return PaymentManager::createPayment($request->input('nickname'), $request->input('coupon') ?? ' ');
     }
 
     public function show() {
