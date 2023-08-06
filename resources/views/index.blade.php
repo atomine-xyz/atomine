@@ -55,13 +55,13 @@
             <div class="p-6 pb-7 bg-gradient-to-r from-gr-first to-gr-second rounded-xl flex flex-col place-content-between">
                 <div>
                     <h1 class="text-2xl font-bold">Проходка на один сезон</h1>
-                    <span class="text-3xl font-bold leading-relaxed">{{ $price }}₽</span>
+                    <span class="text-3xl font-bold leading-relaxed">По анкете{{--{{ $price }}₽--}}</span>
                     <ul class="list-disc ml-5 mt-1 mb-6">
                         <li>Версия 1.20+</li>
                         <li>Можно зайти как с лицензии, так и с пиратки</li>
                     </ul>
                 </div>
-                <a href="{{ route('buying') }}" class="text-center w-1/3 md:w-1/4 inline-block bg-light-100 text-dark-400 border-2 border-light-100 rounded-xl lg:px-6 py-3 font-semibold box-border hover:bg-transparent hover:text-light-100 transition-all">Купить</a>
+                <a href="https://vk.com/atomine?w=app5619682_-219076783{{--{{ route('buying') }}--}}" class="text-center w-1/3 md:w-1/4 inline-block bg-light-100 text-dark-400 border-2 border-light-100 rounded-xl lg:px-6 py-3 font-semibold box-border hover:bg-transparent hover:text-light-100 transition-all">Купить</a>
 
             </div>
             <div class="p-6 pb-7 bg-dark-100 rounded-xl flex flex-col place-content-between">
