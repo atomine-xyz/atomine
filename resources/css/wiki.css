@@ -33,7 +33,7 @@
     p {
         @apply py-2
     }
-    a:not(ul > * > a):not(nav > * > a) {
+    a:not(ul > * > a):not(nav > * > a):not(main > ul > * > a) {
         @apply text-primary hover:text-light-100 my-1
     }
 
@@ -43,5 +43,17 @@
 
     th, td {
         @apply border border-[#ffffff] text-center p-2
+    }
+
+    blockquote {
+        @apply rounded-md bg-dark-200 font-mono pl-4
+    }
+
+    details {
+        @apply my-2
+    }
+
+    summary {
+        @apply text-xl
     }
 }
