@@ -18,10 +18,10 @@ use App\Services\PaymentManager;
 */
 
 Route::get('/', function () {
-    return view('index', ['price' => PaymentManager::getPrice()]);
+    return view('last');
 });
 
-Route::get('/buy', [PaymentController::class, 'show'])->name('buying');
+/*Route::get('/buy', [PaymentController::class, 'show'])->name('buying');
 Route::post('/buy', [PaymentController::class, 'get']);
 Route::get('/buy/check', [PaymentController::class, 'check']);
 
@@ -33,7 +33,7 @@ Route::prefix('/wiki')->group(function() {
     Route::get("/{url?}", [WikiController::class, 'show'])->where('url', '.*');
 });
 
-Route::get('/successbuy', [PaymentController::class, 'success']);
+Route::get('/successbuy', [PaymentController::class, 'success']);*/
 
 
 /*Route::get('/dashboard', function () {
